@@ -19,4 +19,4 @@ The Random Password Generator is a web application created with HTML, CSS, and J
 4. Copy the generated password to use on your accounts.
 
 ## Demo
-[View Demo](https://random-generator-password-beprotected.netlify.app)
+[View Demo](https://random-generator-password-protection.netlify.app)
