@@ -12,7 +12,38 @@ section{
     padding: 10px;
     background-color: #273549;
 }
-button{
+span{
+    color: #10B981;
+}
+.copy-password input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    padding: 10px;
+    height: 20px;
+    border-radius: 10px;
+    flex: 1;
+    font-size: 18px;
+ }
+.copy-password button{
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background: #ebfffc;
+    border-radius: 2px;
+    width: 42px;
+    height: 27px;
+    margin-left: -50px;
+    border-radius: 5px;
+    margin-top: 2px;
+ }
+ .copy-password button img{
+    width: 18px;
+ }
+ .copy-password button:hover{
+    background-color: #273549;
+ }
+ button{
     background-color: #10B981;
     font-size: 18px;
     margin: 10px 0;
@@ -21,21 +52,4 @@ button{
     border-radius: 8px;
     color: white;
     cursor: pointer;
-}
-.btn-2 button{
-    background-color: #273549;
-    color: #10B981;
-    width: 200px;
-    height: 30px;
-    display: flex;
-    justify-content: space-around;
-}
-
-
-span{
-    color: #10B981;
-}
-#description{
-    color: gainsboro;
-    font-size: 17px;
 }
