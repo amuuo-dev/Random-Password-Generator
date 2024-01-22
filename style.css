@@ -40,7 +40,7 @@ span{
  .copy-password button img{
     width: 18px;
  }
- .copy-password button:hover{
+ .copy-password button:active{
     background-color: #273549;
  }
  button{
@@ -52,4 +52,24 @@ span{
     border-radius: 8px;
     color: white;
     cursor: pointer;
+}
+.copy-password button:before{
+    content: "copied";
+    position: absolute;
+    top: 160px;
+    right: 10;
+    background-color: #ebfffc;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    display: none;
+}
+.copy-password button:after{
+    content: "";
+  display: none;
+}
+.copy-password button:before,
+.copy-password button:after{
+    display: block;
 }
