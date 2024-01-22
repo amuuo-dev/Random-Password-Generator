@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: white;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 3px #273549;
+    border-radius: 8px;
+    margin: 90px auto;
+    padding: 10px;
+    background-color: #273549;
+}
+button{
+    background-color: #10B981;
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 6px;
+    border: solid 1px #388D34;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+.btn-2 button{
+    background-color: #273549;
+    color: #10B981;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+span{
+    color: #10B981;
+}
+#description{
+    color: gainsboro;
+    font-size: 17px;
+}
