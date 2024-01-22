@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Password Generator</title>
+    <title>passwordGenerator</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon"  sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" sizes="32x32" href="images/favicon-32x32.png">
 </head>
 <body>
     <section>
     <div class="container">
         <div class="label">
             <h1>Generate a<br> <span>random Password</span></h1>
-            <p id="description">Never use an insecure password again!!
+           <p id="description">Never use an insecure password again!!</p> 
         </div>
-    <div class="copy-text">
-        <input title="text" class="text" value="d@#q+Vj+M3?%$HZ">
-        <button type="button" onclick="copyPassword()"><img src="images/8530597_copy_icon.png" alt="copy-icon png"></button>
-    </div>
-     <button type="button" onclick="getRandomPassword()">Generate password</button>
+        <div class="copy-password">
+            <input type="text" class="text" value="d@#q+Vj+M3?%$HZ">
+            <button type="button" onclick="copyPassword()"><img src="images/8530597_copy_icon.png" alt="copy-icon"></button>
+        <div class="btn2">
+            <button type="button" onclick="getRandomPassword()">Generate password</button>
+        </div>
+        </div>
     </div>
 </section>
 <script src="index.js"></script>
 </body>
 </html>
+
