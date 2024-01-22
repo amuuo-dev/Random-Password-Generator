@@ -22,7 +22,7 @@ button{
     color: white;
     cursor: pointer;
 }
-.btn-2 button{
+.copy-text input{
     background-color: #273549;
     color: #10B981;
     width: 200px;
