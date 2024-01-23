@@ -57,7 +57,7 @@ span{
     content: "copied";
     position: absolute;
     top: 160px;
-    right: 10;
+    right: 10px;
     background-color: #ebfffc;
     color: black;
     padding: 8px 10px;
@@ -67,9 +67,5 @@ span{
 }
 .copy-password button:after{
     content: "";
-  display: none;
-}
-.copy-password button:before,
-.copy-password button:after{
     display: block;
 }
