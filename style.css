@@ -53,7 +53,7 @@ span{
     color: white;
     cursor: pointer;
 }
-.copy-password button:before{
+.copy-password button:before {
     content: "copied";
     position: absolute;
     top: 160px;
@@ -65,7 +65,12 @@ span{
     font-size: 15px;
     display: none;
 }
-.copy-password button:after{
+
+.copy-password button.active:before {
+    display: block;
+}
+
+.copy-password button:after {
     content: "";
     display: block;
 }
